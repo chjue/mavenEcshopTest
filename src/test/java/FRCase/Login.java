@@ -25,9 +25,13 @@ public class Login extends Case{
 	  driver.findElement(By.id("su")).click();
 	  Thread.sleep(2000);
 	  
-	  assertTrue(driver.getPageSource().contains(s));
+	  try {
+	  assertTrue(!driver.getPageSource().contains(s));
+	  }catch(Exception e) {
 	  String ss=utils.Utils.takeScreenshot(s+"的截图");
+	  Log.info(e.getMessage());
 	  Log.info("获取截图地址是："+ss);
+	  }
 	  Thread.sleep(2000);
 	
   }
