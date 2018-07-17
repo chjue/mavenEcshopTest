@@ -30,7 +30,7 @@ public class Login extends Case{
 	  }catch(Exception e) {
 	  String ss=utils.Utils.takeScreenshot(s+"的截图");
 	  Log.info(e.getMessage());
-	  Log.info("获取截图地址是："+ss);
+	  Log.info("获取截图地址是这个："+ss);
 	  }
 	  Thread.sleep(2000);
 	
