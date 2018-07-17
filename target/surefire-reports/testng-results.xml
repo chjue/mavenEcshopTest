@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24867" started-at="2018-07-15T14:48:21Z" finished-at="2018-07-15T14:48:46Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="24867" started-at="2018-07-15T14:48:21Z" finished-at="2018-07-15T14:48:46Z">
+      <class name="FRCase.Login">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FRCase.Login@ac6e3]" name="beforeMethod" is-config="true" duration-ms="3268" started-at="2018-07-15T22:48:21Z" finished-at="2018-07-15T22:48:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testA(java.lang.String, java.lang.String)[pri:0, instance:FRCase.Login@ac6e3]" name="testA" duration-ms="6159" started-at="2018-07-15T22:48:25Z" data-provider="dp" finished-at="2018-07-15T22:48:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[你好]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="testA(java.lang.String, java.lang.String)[pri:0, instance:FRCase.Login@ac6e3]" name="testA" duration-ms="4639" started-at="2018-07-15T22:48:31Z" data-provider="dp" finished-at="2018-07-15T22:48:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[大喜]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="testA(java.lang.String, java.lang.String)[pri:0, instance:FRCase.Login@ac6e3]" name="testA" duration-ms="4560" started-at="2018-07-15T22:48:35Z" data-provider="dp" finished-at="2018-07-15T22:48:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[过望]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="testA(java.lang.String, java.lang.String)[pri:0, instance:FRCase.Login@ac6e3]" name="testA" duration-ms="4598" started-at="2018-07-15T22:48:40Z" data-provider="dp" finished-at="2018-07-15T22:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[可爱]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FRCase.Login@ac6e3]" name="afterMethod" is-config="true" duration-ms="1464" started-at="2018-07-15T22:48:44Z" finished-at="2018-07-15T22:48:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- FRCase.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
