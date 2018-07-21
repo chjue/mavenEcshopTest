@@ -23,7 +23,7 @@ public class Login extends Case{
 	  Log.info("现在执行"+n+"号用例");
 	  driver.findElement(By.id("kw")).sendKeys(s);
 	  driver.findElement(By.id("su")).click();
-	  Thread.sleep(2000);
+	  Thread.sleep(3000);
 	  
 	  try {
 	  assertTrue(!driver.getPageSource().contains(s));
