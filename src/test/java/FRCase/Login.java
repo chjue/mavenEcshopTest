@@ -23,14 +23,14 @@ public class Login extends Case{
 	  Log.info("现在执行"+n+"号用例");
 	  driver.findElement(By.id("kw")).sendKeys(s);
 	  driver.findElement(By.id("su")).click();
-	  Thread.sleep(3000);
+	  Thread.sleep(5000);
 	  
 	  try {
 	  assertTrue(!driver.getPageSource().contains(s));
 	  }catch(Exception e) {
 	  String ss=utils.Utils.takeScreenshot(s+"的截图");
 	  Log.info(e.getMessage());
-	  Log.info("获取截图地址是这个："+ss);
+	  Log.info("获取截图地址是："+ss);
 	  }
 	  Thread.sleep(2000);
 	
