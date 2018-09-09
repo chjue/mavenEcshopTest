@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="4" total="4" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="20721" started-at="2018-07-29T02:42:43Z" finished-at="2018-07-29T02:43:04Z">
+  <suite name="Suite" duration-ms="28179" started-at="2018-08-05T02:40:28Z" finished-at="2018-08-05T02:40:56Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="20721" started-at="2018-07-29T02:42:43Z" finished-at="2018-07-29T02:43:04Z">
+    <test name="Test" duration-ms="28179" started-at="2018-08-05T02:40:28Z" finished-at="2018-08-05T02:40:56Z">
       <class name="FRCase.Login">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FRCase.Login@ac6e3]" name="beforeMethod" is-config="true" duration-ms="4390" started-at="2018-07-29T10:42:43Z" finished-at="2018-07-29T10:42:48Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FRCase.Login@ac6e3]" name="beforeMethod" is-config="true" duration-ms="3463" started-at="2018-08-05T10:40:28Z" finished-at="2018-08-05T10:40:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="testA(java.lang.String, java.lang.String)[pri:0, instance:FRCase.Login@ac6e3]" name="testA" duration-ms="4439" started-at="2018-07-29T10:42:48Z" data-provider="dp" finished-at="2018-07-29T10:42:53Z">
+        <test-method status="FAIL" signature="testA(java.lang.String, java.lang.String)[pri:0, instance:FRCase.Login@ac6e3]" name="testA" duration-ms="7084" started-at="2018-08-05T10:40:32Z" data-provider="dp" finished-at="2018-08-05T10:40:39Z">
           <params>
             <param index="0">
               <value>
@@ -68,7 +68,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testA -->
-        <test-method status="FAIL" signature="testA(java.lang.String, java.lang.String)[pri:0, instance:FRCase.Login@ac6e3]" name="testA" duration-ms="3559" started-at="2018-07-29T10:42:53Z" data-provider="dp" finished-at="2018-07-29T10:42:56Z">
+        <test-method status="FAIL" signature="testA(java.lang.String, java.lang.String)[pri:0, instance:FRCase.Login@ac6e3]" name="testA" duration-ms="5339" started-at="2018-08-05T10:40:39Z" data-provider="dp" finished-at="2018-08-05T10:40:44Z">
           <params>
             <param index="0">
               <value>
@@ -125,7 +125,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testA -->
-        <test-method status="FAIL" signature="testA(java.lang.String, java.lang.String)[pri:0, instance:FRCase.Login@ac6e3]" name="testA" duration-ms="3343" started-at="2018-07-29T10:42:56Z" data-provider="dp" finished-at="2018-07-29T10:42:59Z">
+        <test-method status="FAIL" signature="testA(java.lang.String, java.lang.String)[pri:0, instance:FRCase.Login@ac6e3]" name="testA" duration-ms="5413" started-at="2018-08-05T10:40:44Z" data-provider="dp" finished-at="2018-08-05T10:40:50Z">
           <params>
             <param index="0">
               <value>
@@ -182,7 +182,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testA -->
-        <test-method status="FAIL" signature="testA(java.lang.String, java.lang.String)[pri:0, instance:FRCase.Login@ac6e3]" name="testA" duration-ms="3315" started-at="2018-07-29T10:42:59Z" data-provider="dp" finished-at="2018-07-29T10:43:03Z">
+        <test-method status="FAIL" signature="testA(java.lang.String, java.lang.String)[pri:0, instance:FRCase.Login@ac6e3]" name="testA" duration-ms="5307" started-at="2018-08-05T10:40:50Z" data-provider="dp" finished-at="2018-08-05T10:40:55Z">
           <params>
             <param index="0">
               <value>
@@ -239,7 +239,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testA -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FRCase.Login@ac6e3]" name="afterMethod" is-config="true" duration-ms="1374" started-at="2018-07-29T10:43:03Z" finished-at="2018-07-29T10:43:04Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FRCase.Login@ac6e3]" name="afterMethod" is-config="true" duration-ms="1374" started-at="2018-08-05T10:40:55Z" finished-at="2018-08-05T10:40:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->

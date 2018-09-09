@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="14.66" tests="4" errors="0" skipped="0" failures="4">
+<testsuite name="TestSuite" time="23.144" tests="4" errors="0" skipped="0" failures="4">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_144\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="D:\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf703330610073665456.tmp"/>
+    <property name="classworlds.conf" value="D:\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3987914637538901339.tmp"/>
     <property name="sun.jnu.encoding" value="GBK"/>
     <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/Java/jre1.8.0_151/bin/client;C:/Program Files (x86)/Java/jre1.8.0_151/bin;C:/Program Files (x86)/Java/jre1.8.0_151/lib/i386;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\Program Files (x86)\Java\jre6\bin;C:\Program Files (x86)\HP\LoadRunner\strawberry-perl\perl\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;%MAVEN_HOME%\bin;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit;E:\SoftwareInstall\Git\cmd;C:\Users\chenhaijiao\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\chenhaijiao\AppData\Local\Programs\Python\Python36\;E:\SoftwareInstall\apache-jmeter-4.0\apache-jmeter-4.0\bin;E:\SoftwareInstall\apache-maven-3.5.2\bin;E:\SoftwareInstall\SSH Communications Security\SSH Secure Shell;C:\Users\chenhaijiao\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,7 +60,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase name="testA" classname="FRCase.Login" time="4.445">
+  <testcase name="testA" classname="FRCase.Login" time="7.089">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
@@ -92,10 +92,10 @@ j=1
 首页打开了
 现在执行1号用例
 ]]></system-out>
-    <system-err><![CDATA[Started ChromeDriver (v2.1) on port 58268
+    <system-err><![CDATA[Started ChromeDriver (v2.1) on port 42173
 ]]></system-err>
   </testcase>
-  <testcase name="testA" classname="FRCase.Login" time="3.557">
+  <testcase name="testA" classname="FRCase.Login" time="5.336">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
@@ -107,7 +107,7 @@ j=1
 现在执行2号用例
 ]]></system-out>
   </testcase>
-  <testcase name="testA" classname="FRCase.Login" time="3.343">
+  <testcase name="testA" classname="FRCase.Login" time="5.413">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
@@ -119,7 +119,7 @@ j=1
 现在执行3号用例
 ]]></system-out>
   </testcase>
-  <testcase name="testA" classname="FRCase.Login" time="3.315">
+  <testcase name="testA" classname="FRCase.Login" time="5.306">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)

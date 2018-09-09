@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 21.415 sec <<< FAILURE! - in TestSuite
-testA(FRCase.Login)  Time elapsed: 4.445 sec  <<< FAILURE!
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 28.883 sec <<< FAILURE! - in TestSuite
+testA(FRCase.Login)  Time elapsed: 7.089 sec  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
@@ -10,7 +10,7 @@ java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.assertTrue(Assert.java:52)
 	at FRCase.Login.testA(Login.java:29)
 
-testA(FRCase.Login)  Time elapsed: 3.557 sec  <<< FAILURE!
+testA(FRCase.Login)  Time elapsed: 5.336 sec  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
@@ -18,7 +18,7 @@ java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.assertTrue(Assert.java:52)
 	at FRCase.Login.testA(Login.java:29)
 
-testA(FRCase.Login)  Time elapsed: 3.343 sec  <<< FAILURE!
+testA(FRCase.Login)  Time elapsed: 5.413 sec  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
@@ -26,7 +26,7 @@ java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.assertTrue(Assert.java:52)
 	at FRCase.Login.testA(Login.java:29)
 
-testA(FRCase.Login)  Time elapsed: 3.315 sec  <<< FAILURE!
+testA(FRCase.Login)  Time elapsed: 5.306 sec  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)

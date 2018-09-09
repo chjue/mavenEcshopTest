@@ -26,7 +26,7 @@ public class Login extends Case{
 	  Thread.sleep(5000);
 	  
 	  try {
-	  assertTrue(!driver.getPageSource().contains(s));
+	  assertTrue(driver.getPageSource().contains(s));
 	  }catch(Exception e) {
 	  String ss=utils.Utils.takeScreenshot(s+"的截图");
 	  Log.info(e.getMessage());
